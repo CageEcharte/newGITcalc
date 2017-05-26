@@ -1,0 +1,65 @@
+.calcOutput{
+  background-color: #0BB5FF;
+  height: 400px;
+  width: 250px;
+  padding-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  border: 3px solid black;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  text-align: center;
+  box-shadow: 0px 0px 1px 1px #ccc;
+
+}
+
+body{
+  background: url("http://cagecharte.com/wp-content/uploads/2017/04/moon-1817885_1280.jpg") fixed;
+
+}
+
+#steps{
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 1px 1px black;
+}
+
+#keys{
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 1px 1px black;
+  border-radius: 4px;
+  margin: 4px;
+  background-color: white;
+}
+
+#keys:hover{
+  background-color:#d2d2d2;
+}
+#equal{
+  width: 90px;
+  height: 40px;
+  box-shadow: 0px 0px 1px 1px black;
+  border-radius: 4px;
+  margin: 4px;
+  margin-left: 6px;
+  background-color: white;
+}
+
+#equal:hover{
+  background-color: #d2d2d2;
+}
+.name{
+  margin-top: 18px;
+  color: #BFEFFF;
+
+}
+
+@media screen and (max-width: 800px) {
+  #steps{
+    padding: 5px;
+  }
+}
